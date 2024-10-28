@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.box{
+    display: flex;
+    column-gap: 3rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10rem;
+    
+}
+.box1,.box2,.box3,.box4{
+    border: 2px solid black;
+    height: 15rem;
+    width: 15rem;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.box1{
+    background-color: teal;
+}
+.box2{
+    background-color: aqua;
+}
+.box3{
+    background-color: rgb(199, 125, 125);
+}
+.box4{
+    background-color: crimson;
+}
